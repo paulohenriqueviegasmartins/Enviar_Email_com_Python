@@ -1,5 +1,9 @@
-import smtplib
-from email.mime.text import MIMEText
+# Vamos aprender a enviar e-mail com o Python
+# Esse é um processo de automação do envio dos e-mail
+
+
+import smtplib # Importar a biblioteca smtplib
+from email.mime.text import MIMEText  # biblioteca email
 
 # conexão com os servidores do google
 smtp_ssl_host = 'smtp.gmail.com'
